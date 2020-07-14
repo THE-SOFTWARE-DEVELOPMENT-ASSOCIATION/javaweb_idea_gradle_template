@@ -10,7 +10,7 @@ import java.io.IOException;
 public class testServlet extends HttpServlet{
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.getWriter().println("<h1>HelloWorld!</h1>");
+        resp.getWriter().println("<h1>Helrld!</h1>");
     }
 
 }
